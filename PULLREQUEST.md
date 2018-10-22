@@ -26,7 +26,10 @@
 %git push origin hogehoge
 ```
 
-Ok。
+そうすると、ブラウザ上のhogehogeブランチに変更が反映される。
+ブラウザ上でhogehogeブランチにして、ブランチ選択の横のnew pull requestでプルリクをする。
+意味はmasterブランチに追加できる状態だからmasterブランチと統合してくれという感じ。
+
 
 
 
