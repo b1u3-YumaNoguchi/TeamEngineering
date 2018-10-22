@@ -1,5 +1,5 @@
 # TeamEngineering
-チーム開発の練習？
+ルールなどを書くREADME.md
 
 
 * とりあえず読みやすいようにREADME.mdは書いていく（えぬわい）
