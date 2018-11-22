@@ -14,6 +14,3 @@ def logined(req):
 class LoginView(views.LoginView):
     template_name = 'accounts/login.html'
 
-    def get_context_data(self, **kwargs):
-        print(kwargs)
-        return super().get_context_data(**kwargs)

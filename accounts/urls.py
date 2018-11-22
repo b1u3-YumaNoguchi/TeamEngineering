@@ -5,7 +5,7 @@ from . import views
 
 app_name = 'accounts'
 urlpatterns = [
-    path('login/', views.LoginView.as_view(), name='login')
+    path('login/', views.LoginView.as_view(redirect_field_name='/accounts/logined'), name='login')
 ]
 
 if settings.DEBUG:
